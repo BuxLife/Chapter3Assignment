@@ -4,7 +4,6 @@ import jdk.nashorn.internal.objects.annotations.Getter;
 import jdk.nashorn.internal.objects.annotations.Setter;
 
 import java.util.HashSet;
-import java.util.TreeSet;
 
 class Book{
 
@@ -37,7 +36,7 @@ class Book{
     }
 
 }
-public class SetCollection implements LoadList {
+public class SetCollection implements LoadListInterface {
 
     HashSet<Book> readingList = new HashSet<Book>();
 

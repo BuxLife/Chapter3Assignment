@@ -11,7 +11,7 @@ public class ListGui extends JFrame implements ActionListener
 {
 
     private JTextArea helpTxt = new JTextArea(10, 80);
-    private String welcome = "Welcome..This Program Demonstrates the use of a: \nGeneric Collection \nMap Collection Set Collection \nArrayList Collection\nAll implement the interface LoadList\nClick a button to see output of the various collections";
+    private String welcome = "Welcome..This Program Demonstrates the use of a: \nGeneric Collection \nMap Collection Set Collection \nArrayList Collection\nAll implement the interface LoadListInterface\nClick a button to see output of the various collections";
     /*Panels*/
     private JPanel textPanel = new JPanel();
     private JPanel controlPanel = new JPanel();

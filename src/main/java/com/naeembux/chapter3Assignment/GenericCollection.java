@@ -18,7 +18,7 @@ class Game{
     }
 }
 
-public class GenericCollection implements LoadList{
+public class GenericCollection implements LoadListInterface {
 
     Collection<Game> gamesList = new HashSet<Game>();
 

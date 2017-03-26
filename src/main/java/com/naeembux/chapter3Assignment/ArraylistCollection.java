@@ -2,7 +2,7 @@ package com.naeembux.chapter3Assignment;
 
 import java.util.ArrayList;
 
-public class ArraylistCollection implements  LoadList{
+public class ArraylistCollection implements LoadListInterface {
 
     private ArrayList al = new ArrayList();
 

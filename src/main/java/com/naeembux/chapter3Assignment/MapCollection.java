@@ -4,7 +4,7 @@ package com.naeembux.chapter3Assignment;
 import java.util.Hashtable;
 import java.util.Map;
 
-public class MapCollection implements LoadList{
+public class MapCollection implements LoadListInterface {
     Map movies = new Hashtable();
 
     public MapCollection(){
