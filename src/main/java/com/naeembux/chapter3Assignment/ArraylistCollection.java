@@ -19,10 +19,13 @@ public class ArraylistCollection implements  LoadList{
         al.add(4, "Jim Jones");
     }
 
-    public void displayData()
+    public String displayData()
     {
+        String msg = "";
         for (int i = 0; i < al.size(); i++)
-        System.out.println(al.get(i).toString());
+        msg = msg + (al.get(i).toString() + "\n");
+
+        return msg;
     }
 
 
